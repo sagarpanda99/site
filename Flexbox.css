@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    
+}
+.header{
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+}
+img{
+    border: 2px solid black;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.flexy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.pic{
+    margin: 10px;
+    transition: all 1s;
+}
+.pic:hover{
+    transform: scale(0.1);
+}
+
